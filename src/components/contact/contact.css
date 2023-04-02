@@ -55,6 +55,12 @@ padding: calc(10px + 2vw);
     padding: 0;
 }
 
+.contactinputdiv>form>:nth-child(1):hover,.contactinputdiv>form>:nth-child(2):hover,.contactinputdiv>form>:nth-child(3):hover{
+    transform: scale(1.03);
+    cursor: pointer;
+    transition: all 300ms;
+}
+
 .contactblur{
 
     background: rgb(250, 218, 242) !important;

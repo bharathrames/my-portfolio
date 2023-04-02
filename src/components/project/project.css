@@ -32,6 +32,12 @@
     
 }
 
+.projectcard:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+    transition: all 300ms;
+}
+
 .projectName{
     background: linear-gradient(to bottom,rgb(223, 4, 4) 20%,rgb(85, 18, 18));
     background-clip: text;
