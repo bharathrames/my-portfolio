@@ -1,0 +1,25 @@
+
+.profileElement{
+    display: flex;
+    gap: 1vw;
+    padding: 3px;
+    border-radius: calc(5px + 1vw);
+    width: calc(100px + 6vw);
+    background-color: aliceblue;
+    box-shadow: 0 0 calc(5px + 1vw) rgb(126, 125, 125);
+    
+}
+
+.profileElement>:nth-child(1){
+   
+    background-color: transparent;
+    border-radius: 50%;
+    
+}
+.profileElement>:nth-child(2){
+    font-size: calc(10px + 0.5vw);
+    background: transparent;
+
+    display: flex;
+    align-items: center;
+}
