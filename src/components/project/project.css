@@ -10,6 +10,7 @@
     cursor: default;
     text-shadow: 1px 2px 2px rgb(255, 1, 1);
     text-align: center;
+    border: 1px solid black;
 }
 .projectcarddiv{
     display: flex;
@@ -17,6 +18,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: calc(10px + 1vw);
+    border: 1px solid black;
 }
 
 .projectcard{
@@ -101,5 +103,6 @@
 @media screen and (width<=800px) {
     .projectdiv{
         margin-top: calc(40px + 2vw);
+        border: 1px solid black;
     }
 }

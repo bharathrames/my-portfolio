@@ -1,5 +1,5 @@
 .skillmain{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     height: calc(70vh + 10vw);
     margin-top: calc(10px + 2vw);
 }
@@ -25,7 +25,7 @@
 
 .skill-left {
     flex: 1;
-/* border: 1px solid black; */
+border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,7 +44,7 @@
     -webkit-text-fill-color: transparent;
     cursor: default;
     text-shadow: 1px 2px 2px rgb(255, 1, 1);
-    /* border: 1px solid black; */
+    border: 1px solid black;
     text-align: center;
 }
 
@@ -67,7 +67,7 @@ background: transparent;
 }
 
 .skill-maincircle {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     margin-top: calc(10px + 4vw);
     display: flex;
     position: relative;
@@ -82,7 +82,7 @@ background: transparent;
 }
 
 .skill-seccircle{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     width: max-content;
     
 }
@@ -109,7 +109,6 @@ background: transparent;
 }
 
 .skill-seccircle:nth-child(1) {
-   /* border: 1px solid black; */
     transform: rotatez(30deg) ;
 }
 

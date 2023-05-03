@@ -2,14 +2,14 @@
     display: flex;
     gap: 0.5rem;
     padding-top: calc(30px + 5vw);
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 .intro-left {
     display: flex;
     flex: 1;
     justify-content: center;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 
 }
 
@@ -18,7 +18,7 @@
     flex: 1;
     max-width: 300px;
     top: 5vw;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     background: transparent;
     height: calc(50vh + 10vw);
 
@@ -74,7 +74,7 @@ position: absolute;
     gap: 1rem;
     position: relative;
     flex: 1;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     padding-right: 5vw;
     background: transparent;
 
@@ -114,7 +114,7 @@ position: absolute;
 }
 
 .buttondiv {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     background: transparent;
     display: flex;
     justify-content: center;
@@ -125,7 +125,7 @@ position: absolute;
     justify-content: center;
     background: transparent;
     gap: 1rem;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     margin: 0 0 calc(10px + 2vw) 0;
 
 }
@@ -156,7 +156,7 @@ position: absolute;
 
 @media screen and (width<=800px) {
     .intro {
-        /* border: 1px solid black; */
+        border: 1px solid black;
         display: flex;
         height: max-content;
         flex-direction: column;
@@ -166,7 +166,7 @@ position: absolute;
     .intro-right {
         align-items: center;
         padding: 0;
-        /* border: 1px solid black; */
+        border: 1px solid black;
 
     }
 }
