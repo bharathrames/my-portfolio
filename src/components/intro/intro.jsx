@@ -17,9 +17,9 @@ const Intro = () => {
 
                 <div className='image'>
                                    {/* blur div */}
-                <div className='blur' style={{ background: "rgb(255, 252, 236)", left: "-12vw", top: "-9vw" }}></div>
-                <div className='blur' style={{ background: "rgb(238 210 255)", left: "-12vw", top: "calc(100px + 3vw)" }}></div>
-                <div className='blur' style={{ background: "#d4f5fb", left: "calc(180px + 1vw)", top: "calc(20px - 10vw)" }}></div>
+                <div className='blur' style={{ background: "rgb(255, 252, 236)", left: "-9vw", top: "-5vw" }}></div>
+                <div className='blur' style={{ background: "rgb(238 210 255)", left: "-9vw", top: "calc(100px + 3vw)" }}></div>
+                <div className='blur' style={{ background: "#d4f5fb", left: "calc(120px + 15vw)", top: "calc(-20px - 1vw)" }}></div>
  
 
                     <div className="intro-image">
@@ -30,11 +30,11 @@ const Intro = () => {
                     </div>
                      
                       
-                    <Profileelement className="subdiv" left="calc(160px + 10vw)" top="calc(-5px + 3vw)" size='calc(25px + 1.1vw)' crown={crown} text1="Web" text2="Developer" />
+                    <Profileelement className="subdiv" left="calc(160px + 10vw)" top="calc(10px + 3vw)" size='calc(25px + 1.1vw)' crown={crown} text1="Web" text2="Developer" />
 
 
 
-                    <Profileelement className="subdiv" top="calc(160px + 10vw)" left="calc(-40px - 3vw)" size='calc(30px + 1.5vw)' crown={thumbsup} text1="Best" text2="Design" />
+                    <Profileelement className="subdiv" top="calc(160px + 10vw)" left="calc(-10px - 3vw)" size='calc(30px + 1.5vw)' crown={thumbsup} text1="Best" text2="Design" />
                                </div>
             </div>
             <div className='intro-right'>

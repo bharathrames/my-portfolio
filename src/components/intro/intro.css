@@ -1,7 +1,7 @@
 .intro {
     display: flex;
     gap: 0.5rem;
-    padding-top: calc(30px + 5vw);
+    padding-top: calc(70px + 2vw);
     /* border: 1px solid black; */
 }
 
@@ -32,7 +32,7 @@
     height: calc(200px + 13vw);
     background: transparent;
     top: calc(5px + 1vw);
-    left: -10px;
+    left: 10px;
 position: absolute;
     
 }
@@ -42,6 +42,7 @@ position: absolute;
     height: calc(180px + 13vw);
     background: transparent;
     top: calc(20px + 1vw);
+    left:25px;
 position: absolute;
 
 }
@@ -50,7 +51,7 @@ position: absolute;
     width: calc(140px + 10vw);
     height: auto;
     background: transparent;
-    left: 30px;
+    left: 55px;
     top: calc(-1px - 1vw);
     border-radius: 0 0 calc(25px + 3vw) calc(40px + 5vw);
     position: absolute;
@@ -59,7 +60,7 @@ position: absolute;
 .intro-image>:nth-child(4) {
     background-color: transparent;
     top: calc(20px - 3vw);
-    left: calc(-20px - 10vw);
+    left: calc(5px - 10vw);
     width: calc(80px + 4vw);
     position: absolute;
    
