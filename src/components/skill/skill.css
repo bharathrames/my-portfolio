@@ -1,7 +1,14 @@
+.skillmain{
+    /* border: 1px solid black; */
+    height: calc(70vh + 10vw);
+    margin-top: calc(10px + 2vw);
+}
+
+
 .skilldiv {
     display: flex;
     margin-top: calc(10px + 5vw);
-    /* border: 1px solid black; */
+
 }
 
 .skill-right {
@@ -10,8 +17,9 @@
     flex-direction: column;
     align-items: center;
     margin-top: calc(20px + 4vw);
+    
+    position: relative;
 
-   
 
 }
 

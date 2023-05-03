@@ -1,8 +1,4 @@
 
-.projectdiv{
-
-    margin: calc(10px + 2vw) 0 calc(10px + 2vw) 0;
-}
 
 .projecttittle{
     font-weight: bold;
@@ -104,6 +100,6 @@
 
 @media screen and (width<=800px) {
     .projectdiv{
-        margin-top: calc(100px + 25vw);
+        margin-top: calc(40px + 2vw);
     }
 }
