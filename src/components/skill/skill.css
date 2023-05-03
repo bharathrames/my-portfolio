@@ -1,5 +1,5 @@
 .skillmain{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height:max-content;
     margin-top: calc(10px + 2vw);
 }
@@ -17,15 +17,15 @@
     flex-direction: column;
     align-items: center;
     margin-top: calc(20px + 4vw);
-    border: 1px solid black;
-    
+    /* border: 1px solid black; */
+    padding: 0 10px 10px 0;
 
 
 }
 
 .skill-left {
     flex: 1;
-border: 1px solid black;
+/* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,7 +44,7 @@ border: 1px solid black;
     -webkit-text-fill-color: transparent;
     cursor: default;
     text-shadow: 1px 2px 2px rgb(255, 1, 1);
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align: center;
 }
 
@@ -67,7 +67,7 @@ background: transparent;
 }
 
 .skill-maincircle {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: calc(10px + 4vw);
     display: flex;
     position: relative;
@@ -82,7 +82,7 @@ background: transparent;
 }
 
 .skill-seccircle{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: max-content;
     
 }
