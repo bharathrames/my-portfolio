@@ -4,10 +4,10 @@ import {Link} from 'react-scroll'
 
 const Navbar = () => {
     return(
-        <div className="navbar" id="navbar">
+        <div className="navbar" >
                   <div className="nav-list">
                     <ul>
-                        <Link spy={true} to="navbar" smooth={true} activeClass="activclass">
+                        <Link spy={true} to="home" smooth={true} activeClass="activclass">
                         <li className="nav-item">Home</li>
                         </Link>
                         <Link spy={true} to="About" smooth={true}>

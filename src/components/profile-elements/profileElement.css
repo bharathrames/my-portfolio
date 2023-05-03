@@ -7,7 +7,7 @@
     width: calc(100px + 6vw);
     background-color: aliceblue;
     box-shadow: 0 0 calc(5px + 1vw) rgb(126, 125, 125);
-    
+    position: absolute;
 }
 
 .profileElement>:nth-child(1){

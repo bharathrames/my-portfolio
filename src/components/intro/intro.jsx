@@ -12,7 +12,7 @@ import { Link } from 'react-scroll';
 
 const Intro = () => {
     return (
-        <div className='intro'>
+        <div className='intro' id='home'>
             <div className='intro-left'>
 
                 <div className='image'>
@@ -22,17 +22,19 @@ const Intro = () => {
                 <div className='blur' style={{ background: "#d4f5fb", left: "calc(180px + 1vw)", top: "calc(20px - 10vw)" }}></div>
  
 
+                    <div className="intro-image">
                     <img src={background2} alt="nothing" />
                     <img src={background1} alt="nothing" />
                     <img src={myphoto} alt="nothing" />
                     <img src={emoji} alt="nothing" />
+                    </div>
                      
                       
-                    <Profileelement left="calc(160px + 10vw)" top="calc(60px - 2.5vw)" size='calc(25px + 1.1vw)' crown={crown} text1="Web" text2="Developer" />
+                    <Profileelement className="subdiv" left="calc(160px + 10vw)" top="calc(-5px + 3vw)" size='calc(25px + 1.1vw)' crown={crown} text1="Web" text2="Developer" />
 
 
 
-                    <Profileelement top="calc(200px + 7vw)" left="calc(-40px - 3vw)" size='calc(30px + 1.5vw)' crown={thumbsup} text1="Best" text2="Design" />
+                    <Profileelement className="subdiv" top="calc(160px + 10vw)" left="calc(-40px - 3vw)" size='calc(30px + 1.5vw)' crown={thumbsup} text1="Best" text2="Design" />
                                </div>
             </div>
             <div className='intro-right'>

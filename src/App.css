@@ -5,9 +5,24 @@
   font-size: calc(10px + 0.5vw);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+*::-webkit-scrollbar{
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track{
+ background: #fcc4ff;
+}
+*::-webkit-scrollbar-thumb{
+  background: #f485fc;
+  border-radius: 10px;
+ }
+ *::-webkit-scrollbar-thumb:hover{
+  background: #ee04ff;
+
+ }
  .App{
   padding: 0 20px 0 20px;
-  background-color: rgb(255, 248, 248);
+  background-color: rgba(255, 237, 255, 0.7);
  }
 
 .button{

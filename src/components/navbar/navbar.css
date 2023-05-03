@@ -3,13 +3,14 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: calc(10px + 1vw) calc(10px + 1vw) calc(10px + 1vw) 0;
+    padding: calc(10px + 0.5vw) calc(20px + 3vw) calc(10px + 0.5vw) 0;
     font-weight: 400;
     background-color: rgb(250, 206, 250);
     margin: 0 -20px calc(20px + 5vw) -20px;
-    position: relative;
+    position: fixed;
     box-shadow: 0 0 10px rgb(244, 118, 244);
-    
+    width: 98%;
+    top: 0;
 
 }
 .nav-list{

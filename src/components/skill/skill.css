@@ -71,11 +71,11 @@ background: transparent;
     margin-top: calc(10px + 4vw);
     display: flex;
     position: relative;
-    height: calc(150px + 10vw);
+    height: calc(180px + 10vw);
     transform-style: preserve-3d;
     animation: skillrotate 15s linear infinite;
     justify-content: center;
-    width: calc(150px + 10vw);
+    width: calc(180px + 10vw);
     background: transparent;
     border-radius: 50%;
     box-shadow: 0 0 calc(4px + 1vw) rgb(152, 152, 152);
@@ -181,16 +181,17 @@ background: transparent;
 
 .skillleftblur{
 
-    background: rgb(251, 223, 251);
+    background: rgb(253, 209, 252);
+     margin-top: calc(10px + 2vw);
       width: 18rem;
-      height: calc(25rem + 1vw);
+      height: calc(20rem + 1vw);
 
 }
 .skillrightblur{
 
     background: rgb(253, 209, 252);
       height: calc(10rem + 5vw);
-      width: calc(30rem + 13vw);
+      width: calc(20rem + 13vw);
 
 }
 

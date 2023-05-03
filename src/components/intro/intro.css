@@ -1,19 +1,19 @@
-.intro{
+.intro {
     display: flex;
-    height: calc(50vh + 10vw);
-    gap: 1rem;
-    margin-top: calc(1px + 2vw);
+    gap: 0.5rem;
+    padding-top: calc(30px + 5vw);
     /* border: 1px solid black; */
 }
-.intro-left{
+
+.intro-left {
     display: flex;
     flex: 1;
     justify-content: center;
-     /* border: 1px solid black; */
+    /* border: 1px solid black; */
 
 }
 
-.image{
+.image {
     position: relative;
     flex: 1;
     max-width: 300px;
@@ -21,43 +21,52 @@
     /* border: 1px solid black; */
     background: transparent;
     height: calc(50vh + 10vw);
-    
+
 }
-.image>*{
-    position: absolute;
-    z-index: 1;
-}
-.image>:nth-child(4){
+
+
+
+
+.intro-image>:nth-child(1) {
     width: calc(200px + 13vw);
     height: calc(200px + 13vw);
     background: transparent;
-    bottom: 50px;
+    top: calc(5px + 1vw);
     left: -10px;
+position: absolute;
+    
 }
-.image>:nth-child(5){
+
+.intro-image>:nth-child(2) {
     width: calc(200px + 13vw);
     height: calc(180px + 13vw);
     background: transparent;
-    bottom: 50px ;
-  
+    top: calc(20px + 1vw);
+position: absolute;
+
 }
-.image>:nth-child(6){
-    width: calc(140px + 13vw);
+
+.intro-image>:nth-child(3) {
+    width: calc(140px + 10vw);
     height: auto;
     background: transparent;
-    bottom: calc(75px + 1.2vw);
     left: 30px;
-    border-radius: 0 0 calc(25px + 5vw) calc(40px + 6vw);
+    top: calc(-1px - 1vw);
+    border-radius: 0 0 calc(25px + 3vw) calc(40px + 5vw);
+    position: absolute;
 }
 
-.image>:nth-child(7){
+.intro-image>:nth-child(4) {
     background-color: transparent;
-    top:calc(20px - 3vw);
-    left: calc(1px - 10vw);
-    width: calc(80px + 4vw);  
+    top: calc(20px - 3vw);
+    left: calc(-20px - 10vw);
+    width: calc(80px + 4vw);
+    position: absolute;
+   
 }
 
-.intro-right{
+
+.intro-right {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -71,13 +80,14 @@
 
 }
 
-.intro-name{
+.intro-name {
     display: flex;
     flex-direction: column;
     background: transparent;
 
 }
-.intro-name>:nth-child(1){
+
+.intro-name>:nth-child(1) {
     color: rgb(45, 45, 45);
     font-weight: bold;
     font-size: calc(50px + 1vw);
@@ -86,30 +96,31 @@
 
 }
 
-.intro-name>:nth-child(2){
-    background: linear-gradient(to bottom,rgb(223, 4, 4) 50%,rgb(85, 18, 18));
+.intro-name>:nth-child(2) {
+    background: linear-gradient(to bottom, rgb(223, 4, 4) 50%, rgb(85, 18, 18));
     font-weight: bold;
     font-size: calc(50px + 1vw);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: default;
-    
+
 }
 
-.intro-button{
-    
-padding: calc(10px + 0.1vw) calc(20px + 0.1vw) calc(10px + 0.1vw) calc(20px + 0.1vw);
-font-size: calc(12px + 0.5vw);
-    
+.intro-button {
+
+    padding: calc(10px + 0.1vw) calc(20px + 0.1vw) calc(10px + 0.1vw) calc(20px + 0.1vw);
+    font-size: calc(12px + 0.5vw);
+
 }
-.buttondiv{
+
+.buttondiv {
     /* border: 1px solid black; */
     background: transparent;
     display: flex;
     justify-content: center;
 }
 
-.intro-icons{
+.intro-icons {
     display: flex;
     justify-content: center;
     background: transparent;
@@ -119,41 +130,43 @@ font-size: calc(12px + 0.5vw);
 
 }
 
-.intro-icons>:nth-child(1):hover,.intro-icons>:nth-child(2):hover{
+.intro-icons>:nth-child(1):hover,
+.intro-icons>:nth-child(2):hover {
     cursor: pointer;
     transform: scale(1.1);
-    transition: all 300ms ease; 
-    
+    transition: all 300ms ease;
+
 }
 
-.inside-div{
+.inside-div {
     position: absolute;
     background: transparent;
 }
 
-.rightblur{
+.rightblur {
     position: relative;
     background: rgb(254, 223, 254);
-     left: calc(-70px + 10vw);
-      top: calc(20px - 2vw);
-      width: calc(20rem + 10vw);
-      height: calc(20rem + 5vw);
+    left: calc(-70px + 10vw);
+    top: calc(20px - 2vw);
+    width: calc(20rem + 10vw);
+    height: calc(20rem + 5vw);
 }
 
 
 
 @media screen and (width<=800px) {
-    .intro{
-        border: 1px solid black;
+    .intro {
+        /* border: 1px solid black; */
         display: flex;
         height: max-content;
-       flex-direction: column;
-   
+        flex-direction: column;
+
     }
-    .intro-right{ 
+
+    .intro-right {
         align-items: center;
         padding: 0;
         /* border: 1px solid black; */
-        
-    } 
+
+    }
 }
