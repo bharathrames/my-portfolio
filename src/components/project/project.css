@@ -16,7 +16,8 @@
     display: flex;
     margin: calc(10px + 2vw) 0 calc(10px + 2vw) 0;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+
     gap: calc(10px + 1vw);
     /* border: 1px solid black; */
 }
