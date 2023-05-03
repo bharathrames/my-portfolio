@@ -144,8 +144,9 @@ font-size: calc(12px + 0.5vw);
 
 @media screen and (width<=800px) {
     .intro{
+        border: 1px solid black;
         display: flex;
-        height: 115vh;
+        height: max-content;
        flex-direction: column;
    
     }
@@ -154,11 +155,5 @@ font-size: calc(12px + 0.5vw);
         padding: 0;
         /* border: 1px solid black; */
         
-    }
-    .intro-left{
-        height: 100vh;
-    }
-   
-    
-   
+    } 
 }
