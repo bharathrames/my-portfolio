@@ -23,8 +23,6 @@ const About = () => {
         </div>
         
         <div className="aboutright">
-                 {/* blur div */}
-       <div className='blur aboutrightblur'></div>
          <div className="container">
          <div className="images">
             <img src={mongodbimage} alt="nothing" />

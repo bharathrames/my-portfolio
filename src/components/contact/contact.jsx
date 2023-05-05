@@ -22,12 +22,13 @@ const Contact = () => {
     emailjs.sendForm('service_6nnf7nh', 'template_raprwgg', form.current, 'f1LguMy0z0BDG-yOs')
       .then((result) => {
         console.log(result.text);
+        setMessage("Message sent successfully")
+        setUsermessage("")
       }, (error) => {
         console.log(error.text);
+        setMessage("Error sending message")
       });
 
-    setMessage("Message sent successfully")
-    setUsermessage("")
   };
 
 

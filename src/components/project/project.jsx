@@ -16,8 +16,7 @@ const Project = () => {
            
             return(
                 <div key ={index} className="projectcard">
-                          {/* blur div */}
-                    <div className='blur projectblur'></div>
+                          
                     <div className="projectbody">
                     <div className="projectName">
                         {items.projectName} 
