@@ -13,27 +13,27 @@
  background: #fcc4ff;
 }
 *::-webkit-scrollbar-thumb{
-  background: #f485fc;
+  background: #da6bff;
   border-radius: 10px;
  }
  *::-webkit-scrollbar-thumb:hover{
-  background: #ee04ff;
+  background: #d504ff;
 
  }
  .App{
   padding: 0 20px 0 20px;
-  background-color: rgba(255, 237, 255, 0.7);
+  background-color: rgba(251, 211, 251, 0.7);
  }
 
 .button{
-  box-shadow: 0 0 7px rgb(203, 3, 3);
+  box-shadow: 0 0 7px rgb(203, 3, 200);
   border: none;
   font-weight: bold;
   color: rgb(226, 226, 227);
   padding: 5px 10px 5px 10px;
   border-radius: 35px;
   font-size: calc(10px + 0.5vw);
-  background: linear-gradient(to bottom,rgb(232, 36, 36) 20%,rgb(107, 43, 43));
+  background: linear-gradient(to bottom,rgb(232, 36, 209) 20%,rgb(107, 43, 93));
 }
 
 .button:hover{

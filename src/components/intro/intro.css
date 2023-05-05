@@ -89,7 +89,7 @@ position: absolute;
 }
 
 .intro-name>:nth-child(1) {
-    color: rgb(45, 45, 45);
+    color: rgb(117, 2, 107);
     font-weight: bold;
     font-size: calc(50px + 1vw);
     cursor: default;
@@ -98,7 +98,7 @@ position: absolute;
 }
 
 .intro-name>:nth-child(2) {
-    background: linear-gradient(to bottom, rgb(223, 4, 4) 50%, rgb(85, 18, 18));
+    background: linear-gradient(to bottom, rgb(223, 4, 209) 50%, rgb(85, 18, 84));
     font-weight: bold;
     font-size: calc(50px + 1vw);
     background-clip: text;

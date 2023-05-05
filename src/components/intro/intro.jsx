@@ -50,8 +50,8 @@ const Intro = () => {
 
 
                 <div className="intro-icons">
-                    <FaGithubSquare style={{background:"transparent"}} color='rgb(133, 2, 2)' size='calc(40px + 1vw)' />
-                    <FaLinkedin style={{background:"transparent"}} color='rgb(133, 2, 2)' size='calc(40px + 1vw)' />
+                    <FaGithubSquare style={{background:"transparent"}} color='rgb(85, 18, 84)' size='calc(40px + 1vw)' />
+                    <FaLinkedin style={{background:"transparent"}} color='rgb(85, 18, 84)' size='calc(40px + 1vw)' />
                 </div>
 
                 <div className='buttondiv'>

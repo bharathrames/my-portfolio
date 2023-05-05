@@ -6,14 +6,15 @@
 }
 
 .abouttittle{
-    font-weight: bold;
+    font-weight: bolder;
+ 
     font-size: calc(15px + 1vw);
     margin-bottom: calc(5px + 2vw);
-    background: linear-gradient(to bottom,rgb(223, 4, 4) 20%,rgb(85, 18, 18));
+    background: linear-gradient(to bottom,rgb(223, 4, 212) 20%,rgb(85, 18, 85));
     background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: default;
-    text-shadow: 1px 2px 2px rgb(255, 1, 1);
+    
 }
 
 .aboutsection{
