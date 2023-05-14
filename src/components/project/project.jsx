@@ -2,8 +2,8 @@ import React from 'react';
 import projectdata from './projectdata'
 import './project.css';
 
-
 const Project = () => {
+
 
   return (
     // items.frontendgithubLink
@@ -25,9 +25,9 @@ const Project = () => {
                         <img src={items.projectImage} alt="nothing" />
                     </div>
                     <div className="buttonLink">
-                        <button>Frontend Source Code</button>
-                        <button>Live Site</button>
-                        <button>Backend Source Code</button>
+                        <button><a href={items.frontendgithubLink} target="_blank" rel="noopener noreferrer" >Frontend Source Code</a></button>
+                        <button><a href={items.deployedLink} target="_blank" rel="noopener noreferrer" >Live Site</a></button>
+                        <button><a href={items.backendgithubLink} target="_blank" rel="noopener noreferrer" >Backend Source Code</a></button>
                     </div>
                     </div>
                 </div>
