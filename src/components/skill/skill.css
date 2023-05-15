@@ -1,7 +1,7 @@
 .skillmain{
     /* border: 1px solid black; */
     height:max-content;
-    padding-top: calc(10px + 2vw);
+    padding-top: calc(60px + 3vw);
 }
 
 
@@ -37,7 +37,6 @@
 
 .skilltittle {
     font-weight: bolder;
-    margin: calc(10px + 5vw) 0 0 0;
     font-size: calc(15px + 1vw);
     background: linear-gradient(to bottom, rgb(223, 4, 198) 20%, rgb(85, 18, 77));
     background-clip: text;
