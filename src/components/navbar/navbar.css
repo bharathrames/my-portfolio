@@ -6,7 +6,6 @@
     padding: calc(10px + 0.5vw) 0 calc(10px + 0.5vw) 0;
     font-weight: 400;
     background-color: rgb(242, 149, 254);
-    margin: 0 -20px calc(20px + 5vw) -20px;
     position: fixed;
     box-shadow: 0 0 10px rgb(244, 118, 244);
     width: 100%;

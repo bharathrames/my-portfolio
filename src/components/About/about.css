@@ -1,6 +1,6 @@
 
 .aboutdiv{
-    padding-top: calc(60px + 3vw);
+    padding: calc(60px + 3vw) calc(10px + 0.1vw) calc(10px + 0.1vw) calc(10px + 0.1vw);
     margin-left: calc(1px + 5vw);
     /* border: 1px solid black; */
 }
