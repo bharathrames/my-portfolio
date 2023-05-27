@@ -109,4 +109,41 @@
     height: calc(170px + 12vw);
 }
 
+/* common mail and password */
+.common-passwordDiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc(20px + 0.5vw);
+    justify-content: center;
+}
 
+.innerDiv{
+    display: flex;
+    flex-direction: column;
+    gap: calc(5px + 0.1vw);
+}
+
+.tittle{
+    font-weight: bolder;
+    font-size: calc(15px + 0.3vw);
+    margin-bottom: calc(5px + 0.1vw);
+    background: linear-gradient(to bottom,rgb(223, 4, 209) 20%,rgb(85, 18, 80));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+}
+
+.mailDiv>:nth-child(1),.passwordDiv>:nth-child(1){
+    font-size: calc(9px + 0.3vw);
+    font-weight: bolder;
+    background: linear-gradient(to bottom,rgb(223, 4, 209) 20%,rgb(85, 18, 80));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+}
+
+.mailDiv>:nth-child(2),.passwordDiv>:nth-child(2){
+    font-size: calc(9px + 0.3vw);
+    font-weight: bolder;
+
+}

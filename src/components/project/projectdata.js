@@ -1,33 +1,36 @@
-import projectsimage from '../../images/project.png'
+import foodCompany from '../../images/foodcompany.png'
+import wisdomUrl from '../../images/wisdomurl.png'
+import moneyManager from '../../images/moneymanager.png'
+import studySpot from '../../images/studyspotcapital.png'
 
 const projectdata =[
     {
-        projectName : "Dummy Name 1",
-        projectImage : projectsimage,
-        frontendgithubLink : "",
-        backendgithubLink:"",
-        deployedLink:""
+        projectName : "Food Company",
+        projectImage : foodCompany,
+        frontendgithubLink : "https://github.com/DhanushChinnaiyan/Food-Token-generator-front-end",
+        backendgithubLink:"https://github.com/DhanushChinnaiyan/food-token-generator-backend",
+        deployedLink:"https://food-compony.netlify.app/"
     },
     {
-        projectName : "Dummy Name 2",
-        projectImage : projectsimage,
-        frontendgithubLink : "",
-        backendgithubLink:"",
-        deployedLink:""
+        projectName : "Wisdom URL",
+        projectImage : wisdomUrl,
+        frontendgithubLink : "https://github.com/DhanushChinnaiyan/URL-SHORTNER-FRONTEND",
+        backendgithubLink:"https://github.com/DhanushChinnaiyan/URL-SHORTNER-BACKEND",
+        deployedLink:"https://url-shortener-fe-task.netlify.app"
     },
     {
-        projectName : "Dummy Name 3",
-        projectImage : projectsimage,
-        frontendgithubLink : "",
-        backendgithubLink:"",
-        deployedLink:""
+        projectName : "Money Equity",
+        projectImage : moneyManager,
+        frontendgithubLink : "https://github.com/DhanushChinnaiyan/money-manager-frontend",
+        backendgithubLink:"https://github.com/DhanushChinnaiyan/money-manager-backend",
+        deployedLink:"https://money-manager-frontend-webcode.netlify.app/"
     },
     {
-        projectName : "Dummy Name 4",
-        projectImage : projectsimage,
-        frontendgithubLink : "",
-        backendgithubLink:"",
-        deployedLink:""
+        projectName : "StudySpot Capital",
+        projectImage : studySpot,
+        frontendgithubLink : "https://github.com/DhanushChinnaiyan/day-42-frontend",
+        backendgithubLink:"https://github.com/DhanushChinnaiyan/day-42-backend",
+        deployedLink:"https://day-42-teacher-student-frontend.netlify.app/"
     }
     
 ]

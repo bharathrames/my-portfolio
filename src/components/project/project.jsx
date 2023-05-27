@@ -11,6 +11,18 @@ const Project = () => {
         <div className="projecttittle">
             Projects :
         </div>
+        <div className='common-passwordDiv'>
+            <div className='innerDiv'>
+                <div className='tittle'>User:</div>
+                <div className='mailDiv'><span>Email : </span><span>dhanushmd4021@gmail.com</span></div>
+                <div className='passwordDiv'><span>Password : </span><span>12345678</span></div>
+            </div>
+            <div className='innerDiv'>
+                <div className='tittle'>Admin:</div>
+                <div className='mailDiv'><span>Email : </span><span>dhanushms4021@gmail.com</span></div>
+                <div className='passwordDiv'><span>Password : </span><span>Password@123</span></div>
+            </div>
+        </div>
         <div className="projectcarddiv">
         {projectdata.map((items,index)=>{
            
