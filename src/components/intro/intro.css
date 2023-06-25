@@ -9,7 +9,6 @@
     display: flex;
     flex: 1;
     justify-content: center;
-    /* border: 1px solid black; */
 
 }
 
@@ -89,7 +88,7 @@ position: absolute;
 }
 
 .intro-name>:nth-child(1) {
-    color: rgb(117, 2, 107);
+    color:rgb(166, 88, 255);
     font-weight: bold;
     font-size: calc(50px + 1vw);
     cursor: default;
@@ -98,7 +97,7 @@ position: absolute;
 }
 
 .intro-name>:nth-child(2) {
-    background: linear-gradient(to bottom, rgb(223, 4, 209) 50%, rgb(85, 18, 84));
+    background: linear-gradient(to bottom, rgb(166, 88, 255) 50%, rgb(39, 20, 39));
     font-weight: bold;
     font-size: calc(50px + 1vw);
     background-clip: text;

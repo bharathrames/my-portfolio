@@ -17,7 +17,7 @@ const About = () => {
           
           <div className="aboutleft">
                
-          <div>Hi there! My name is Dhanush, and I am a MERN stack developer. I am passionate about building robust and scalable web applications using the latest technologies and frameworks.</div>
+          <div>Hi there! My name is Bharath Kumar, and I am a MERN stack developer. I am passionate about building robust and scalable web applications using the latest technologies and frameworks.</div>
           <div>My primary focus is on the MERN stack, which consists of MongoDB, Express, React, and Node.js. I have experience building full-stack applications using this technology stack, and I am always eager to learn more. In addition, I am proficient in other front-end  technologies such as JavaScript, HTML/CSS,Bootstrap and Material Ui.</div>
           <div>Thank you for taking the time to read my portfolio "About" section. If you have any questions or would like to discuss potential opportunities, please feel free to reach out to me.</div>
         </div>

@@ -14,7 +14,7 @@ const Navbar = () => {
                         <li className="nav-item">About</li>
                         </Link>
                         <Link spy={true} to="skill" smooth={true}>
-                        <li className="nav-item">Skill</li>
+                        <li className="nav-item">Skills</li>
                         </Link>
                         <Link spy={true} to="project" smooth={true}>
                         <li className="nav-item">Projects</li>

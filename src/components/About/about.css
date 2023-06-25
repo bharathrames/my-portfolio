@@ -10,7 +10,7 @@
  
     font-size: calc(15px + 1vw);
     margin-bottom: calc(5px + 2vw);
-    background: linear-gradient(to bottom,rgb(223, 4, 212) 20%,rgb(85, 18, 85));
+    background: linear-gradient(to bottom, rgb(166, 88, 255) 50%, rgb(39, 20, 39));
     background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: default;
