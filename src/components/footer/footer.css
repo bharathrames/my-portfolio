@@ -4,8 +4,9 @@
     align-items: center;
     position: relative;
     background: transparent;
-    height: max-content;
+    height: min-content;
     margin-top: 50px;
+    
 }
 
 .footer-content{

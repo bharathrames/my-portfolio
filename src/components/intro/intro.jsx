@@ -3,10 +3,11 @@ import './intro.css';
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 import background1 from '../../images/background1.png';
 import background2 from '../../images/background2.png';
-import myprofile from '../../images/myprofile-.png'
+import profile from '../../images/profile.png'
 import Profileelement from '../profile-elements/profileElement';
 import crown from '../../images/crown.png'
 import thumbsup from '../../images/thumbsup.jpeg'
+import Resume1 from '../../images/Resume1.pdf'
 import { Link } from 'react-scroll';
 
 const Intro = () => {
@@ -24,7 +25,7 @@ const Intro = () => {
                     <div className="intro-image">
                         <img src={background2} alt="nothing" />
                         <img src={background1} alt="nothing" />
-                        <img src={myprofile} alt="nothing" />
+                        <img src={profile} alt="nothing" />
                         
                     </div>
 
@@ -55,7 +56,7 @@ const Intro = () => {
 
                     <div className='buttondiv'>
 
-                        <a href="https://drive.google.com/file/d/1bxGOyUiWBNMzLEtVLGYtRCojwef8pz_L/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
+                        <a download="" href={Resume1} target="_blank" rel=" noreferrer">
                             <button className="button intro-button">Resume</button>
                         </a>
                     </div>
