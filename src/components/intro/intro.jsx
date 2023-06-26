@@ -57,7 +57,7 @@ const Intro = () => {
                     <div className='buttondiv'>
 
                         <a download="" href={Resume1} target="_blank" rel=" noreferrer">
-                            <button className="button intro-button">Resume</button>
+                            <button className="button intro-button">Download CV</button>
                         </a>
                     </div>
 
