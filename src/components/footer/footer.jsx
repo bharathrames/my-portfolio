@@ -1,12 +1,10 @@
 import React from 'react'
 import './footer.css';
-//import wave from '../../images/wave.png'
 import { AiFillInstagram, AiFillFacebook, AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 
 const Footer = () => {
     return (
         <div className="footer">
-            {/* <img src={wave} alt="nothing" /> */}
             <div className="footer-content">
                 <span>
                    bharath91505@gmail.com

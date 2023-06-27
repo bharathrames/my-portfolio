@@ -1,24 +1,24 @@
 .footer{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     display: flex;
     align-items: center;
-    position: relative;
-    background: transparent;
+    /* position: relative; */
+    background-color: rgb(145, 87, 221);
     height: min-content;
-    margin-top: 50px;
+    /* margin-top: 30px; */
     
 }
 
 .footer-content{
-    /* border: 1px solid black; */
-    position: absolute;
+    /* border: 1px solid red; */
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 18rem;
+    margin-top: 8rem;
     width: 100%;
-    background: rgb(145, 87, 221);
+    /* background: rgb(145, 87, 221); */
     gap: 1rem;
     
 }
@@ -29,12 +29,6 @@
     color: rgb(0, 0, 0);
     font-weight: bold;
      font-size: calc(13px + 1vw);
-}
-.footer>img{
-    /* border: 1px solid black; */
-    width: 100%;
-    height: calc(200px + 15vw);
-    background: transparent;
 }
 
 .footer-icons{
