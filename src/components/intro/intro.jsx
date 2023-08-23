@@ -56,7 +56,7 @@ const Intro = () => {
 
                     <div className='buttondiv'>
 
-                        <a  href='https://drive.google.com/file/d/194c5Tjl-0lIBFSmJaH8MRW5QTxzoQz0N/view?usp=sharing' target="_blank" rel=" noreferrer">
+                        <a  href='https://drive.google.com/file/d/16Ccuf9TgDmZHTOa5rfTw_7YS0UQYW7kQ/view?usp=sharing' target="_blank" rel=" noreferrer">
                             <button className="button intro-button">Download CV</button>
                         </a>
                     </div>
