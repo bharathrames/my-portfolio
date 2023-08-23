@@ -8,9 +8,9 @@ const projectdata =[
     {
         projectName : "Foods List ",
         projectImage : foodCompany,
-        frontendgithubLink : "https://github.com/bharathrames/foodappfrontend",
-         backendgithubLink:"https://github.com/bharathrames/FoodAppBackend",
-        deployedLink:"https://recepieappes.netlify.app/"
+        frontendgithubLink : "https://github.com/bharathrames/foodappclient",
+         backendgithubLink:"https://github.com/bharathrames/foodappserver",
+        deployedLink:"https://easyfoodapp.netlify.app/"
     },
     {
         projectName : "chat-app",
